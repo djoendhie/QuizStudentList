@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5461BFFFCCFA6B22A0EF00 /* Pods_Quizkelas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC0FF824D1EB53AF7B93C1A /* Pods_Quizkelas.framework */; };
+		D69F21A31FBD38860026B911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69F21A21FBD38860026B911 /* AppDelegate.swift */; };
+		D69F21A51FBD38860026B911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69F21A41FBD38860026B911 /* ViewController.swift */; };
+		D69F21A81FBD38860026B911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69F21A61FBD38860026B911 /* Main.storyboard */; };
+		D69F21AA1FBD38860026B911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69F21A91FBD38860026B911 /* Assets.xcassets */; };
+		D69F21AD1FBD38860026B911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69F21AB1FBD38860026B911 /* LaunchScreen.storyboard */; };
+		D69F21B81FBD38860026B911 /* QuizkelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69F21B71FBD38860026B911 /* QuizkelasTests.swift */; };
+		D69F21C31FBD38870026B911 /* QuizkelasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69F21C21FBD38870026B911 /* QuizkelasUITests.swift */; };
+		D6D2EDB91FBD46190065EA28 /* KelasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2EDB81FBD46190065EA28 /* KelasTableViewController.swift */; };
+		D6D2EDBB1FBD46270065EA28 /* KelasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2EDBA1FBD46270065EA28 /* KelasTableViewCell.swift */; };
+		D6D2EDBD1FBD46330065EA28 /* SiswaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2EDBC1FBD46330065EA28 /* SiswaTableViewCell.swift */; };
+		D6D2EDBF1FBD46410065EA28 /* SiswaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2EDBE1FBD46410065EA28 /* SiswaTableViewController.swift */; };
+		D6D2EDC11FBD46540065EA28 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2EDC01FBD46540065EA28 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69F21B41FBD38860026B911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69F21971FBD38860026B911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69F219E1FBD38860026B911;
+			remoteInfo = Quizkelas;
+		};
+		D69F21BF1FBD38870026B911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69F21971FBD38860026B911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69F219E1FBD38860026B911;
+			remoteInfo = Quizkelas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40F67D3196715247CCA75C99 /* Pods-Quizkelas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizkelas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quizkelas/Pods-Quizkelas.release.xcconfig"; sourceTree = "<group>"; };
+		4DC0FF824D1EB53AF7B93C1A /* Pods_Quizkelas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quizkelas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643492AEE08B889C8B870357 /* Pods_QuizkelasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizkelasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		670D618F1C656D31F402782A /* Pods_QuizkelasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizkelasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69F219F1FBD38860026B911 /* Quizkelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizkelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69F21A21FBD38860026B911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D69F21A41FBD38860026B911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D69F21A71FBD38860026B911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D69F21A91FBD38860026B911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D69F21AC1FBD38860026B911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D69F21AE1FBD38860026B911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69F21B31FBD38860026B911 /* QuizkelasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizkelasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69F21B71FBD38860026B911 /* QuizkelasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizkelasTests.swift; sourceTree = "<group>"; };
+		D69F21B91FBD38860026B911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69F21BE1FBD38870026B911 /* QuizkelasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizkelasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69F21C21FBD38870026B911 /* QuizkelasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizkelasUITests.swift; sourceTree = "<group>"; };
+		D69F21C41FBD38870026B911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D2EDB81FBD46190065EA28 /* KelasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelasTableViewController.swift; sourceTree = "<group>"; };
+		D6D2EDBA1FBD46270065EA28 /* KelasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelasTableViewCell.swift; sourceTree = "<group>"; };
+		D6D2EDBC1FBD46330065EA28 /* SiswaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiswaTableViewCell.swift; sourceTree = "<group>"; };
+		D6D2EDBE1FBD46410065EA28 /* SiswaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiswaTableViewController.swift; sourceTree = "<group>"; };
+		D6D2EDC01FBD46540065EA28 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E489F148B9181BC14B856E23 /* Pods-Quizkelas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizkelas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quizkelas/Pods-Quizkelas.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69F219C1FBD38860026B911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5461BFFFCCFA6B22A0EF00 /* Pods_Quizkelas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69F21B01FBD38860026B911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69F21BB1FBD38870026B911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		815229AEE069DF70AD2AA595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0FF824D1EB53AF7B93C1A /* Pods_Quizkelas.framework */,
+				643492AEE08B889C8B870357 /* Pods_QuizkelasTests.framework */,
+				670D618F1C656D31F402782A /* Pods_QuizkelasUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D69F21961FBD38860026B911 = {
+			isa = PBXGroup;
+			children = (
+				D69F21A11FBD38860026B911 /* Quizkelas */,
+				D69F21B61FBD38860026B911 /* QuizkelasTests */,
+				D69F21C11FBD38870026B911 /* QuizkelasUITests */,
+				D69F21A01FBD38860026B911 /* Products */,
+				EB749A70EAE2F925B6F3CBBF /* Pods */,
+				815229AEE069DF70AD2AA595 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D69F21A01FBD38860026B911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69F219F1FBD38860026B911 /* Quizkelas.app */,
+				D69F21B31FBD38860026B911 /* QuizkelasTests.xctest */,
+				D69F21BE1FBD38870026B911 /* QuizkelasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69F21A11FBD38860026B911 /* Quizkelas */ = {
+			isa = PBXGroup;
+			children = (
+				D69F21A21FBD38860026B911 /* AppDelegate.swift */,
+				D69F21A41FBD38860026B911 /* ViewController.swift */,
+				D69F21A61FBD38860026B911 /* Main.storyboard */,
+				D69F21A91FBD38860026B911 /* Assets.xcassets */,
+				D69F21AB1FBD38860026B911 /* LaunchScreen.storyboard */,
+				D69F21AE1FBD38860026B911 /* Info.plist */,
+				D6D2EDB81FBD46190065EA28 /* KelasTableViewController.swift */,
+				D6D2EDBA1FBD46270065EA28 /* KelasTableViewCell.swift */,
+				D6D2EDBC1FBD46330065EA28 /* SiswaTableViewCell.swift */,
+				D6D2EDBE1FBD46410065EA28 /* SiswaTableViewController.swift */,
+				D6D2EDC01FBD46540065EA28 /* DetailViewController.swift */,
+			);
+			path = Quizkelas;
+			sourceTree = "<group>";
+		};
+		D69F21B61FBD38860026B911 /* QuizkelasTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69F21B71FBD38860026B911 /* QuizkelasTests.swift */,
+				D69F21B91FBD38860026B911 /* Info.plist */,
+			);
+			path = QuizkelasTests;
+			sourceTree = "<group>";
+		};
+		D69F21C11FBD38870026B911 /* QuizkelasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D69F21C21FBD38870026B911 /* QuizkelasUITests.swift */,
+				D69F21C41FBD38870026B911 /* Info.plist */,
+			);
+			path = QuizkelasUITests;
+			sourceTree = "<group>";
+		};
+		EB749A70EAE2F925B6F3CBBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E489F148B9181BC14B856E23 /* Pods-Quizkelas.debug.xcconfig */,
+				40F67D3196715247CCA75C99 /* Pods-Quizkelas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69F219E1FBD38860026B911 /* Quizkelas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69F21C71FBD38870026B911 /* Build configuration list for PBXNativeTarget "Quizkelas" */;
+			buildPhases = (
+				8E2CE1819940F78D56B939A0 /* [CP] Check Pods Manifest.lock */,
+				D69F219B1FBD38860026B911 /* Sources */,
+				D69F219C1FBD38860026B911 /* Frameworks */,
+				D69F219D1FBD38860026B911 /* Resources */,
+				EC33B1E538D84DBBA7E284A9 /* [CP] Embed Pods Frameworks */,
+				9C2C2FB751EAAD2E0C9F22FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quizkelas;
+			productName = Quizkelas;
+			productReference = D69F219F1FBD38860026B911 /* Quizkelas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69F21B21FBD38860026B911 /* QuizkelasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69F21CA1FBD38870026B911 /* Build configuration list for PBXNativeTarget "QuizkelasTests" */;
+			buildPhases = (
+				D69F21AF1FBD38860026B911 /* Sources */,
+				D69F21B01FBD38860026B911 /* Frameworks */,
+				D69F21B11FBD38860026B911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69F21B51FBD38860026B911 /* PBXTargetDependency */,
+			);
+			name = QuizkelasTests;
+			productName = QuizkelasTests;
+			productReference = D69F21B31FBD38860026B911 /* QuizkelasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69F21BD1FBD38870026B911 /* QuizkelasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69F21CD1FBD38870026B911 /* Build configuration list for PBXNativeTarget "QuizkelasUITests" */;
+			buildPhases = (
+				D69F21BA1FBD38870026B911 /* Sources */,
+				D69F21BB1FBD38870026B911 /* Frameworks */,
+				D69F21BC1FBD38870026B911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69F21C01FBD38870026B911 /* PBXTargetDependency */,
+			);
+			name = QuizkelasUITests;
+			productName = QuizkelasUITests;
+			productReference = D69F21BE1FBD38870026B911 /* QuizkelasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69F21971FBD38860026B911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D69F219E1FBD38860026B911 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D69F21B21FBD38860026B911 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D69F219E1FBD38860026B911;
+					};
+					D69F21BD1FBD38870026B911 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D69F219E1FBD38860026B911;
+					};
+				};
+			};
+			buildConfigurationList = D69F219A1FBD38860026B911 /* Build configuration list for PBXProject "Quizkelas" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69F21961FBD38860026B911;
+			productRefGroup = D69F21A01FBD38860026B911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69F219E1FBD38860026B911 /* Quizkelas */,
+				D69F21B21FBD38860026B911 /* QuizkelasTests */,
+				D69F21BD1FBD38870026B911 /* QuizkelasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69F219D1FBD38860026B911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69F21AD1FBD38860026B911 /* LaunchScreen.storyboard in Resources */,
+				D69F21AA1FBD38860026B911 /* Assets.xcassets in Resources */,
+				D69F21A81FBD38860026B911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69F21B11FBD38860026B911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69F21BC1FBD38870026B911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E2CE1819940F78D56B939A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quizkelas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2C2FB751EAAD2E0C9F22FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quizkelas/Pods-Quizkelas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC33B1E538D84DBBA7E284A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Quizkelas/Pods-Quizkelas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quizkelas/Pods-Quizkelas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69F219B1FBD38860026B911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69F21A51FBD38860026B911 /* ViewController.swift in Sources */,
+				D6D2EDBF1FBD46410065EA28 /* SiswaTableViewController.swift in Sources */,
+				D6D2EDB91FBD46190065EA28 /* KelasTableViewController.swift in Sources */,
+				D6D2EDBB1FBD46270065EA28 /* KelasTableViewCell.swift in Sources */,
+				D6D2EDBD1FBD46330065EA28 /* SiswaTableViewCell.swift in Sources */,
+				D69F21A31FBD38860026B911 /* AppDelegate.swift in Sources */,
+				D6D2EDC11FBD46540065EA28 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69F21AF1FBD38860026B911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69F21B81FBD38860026B911 /* QuizkelasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69F21BA1FBD38870026B911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69F21C31FBD38870026B911 /* QuizkelasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69F21B51FBD38860026B911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69F219E1FBD38860026B911 /* Quizkelas */;
+			targetProxy = D69F21B41FBD38860026B911 /* PBXContainerItemProxy */;
+		};
+		D69F21C01FBD38870026B911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69F219E1FBD38860026B911 /* Quizkelas */;
+			targetProxy = D69F21BF1FBD38870026B911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D69F21A61FBD38860026B911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69F21A71FBD38860026B911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D69F21AB1FBD38860026B911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69F21AC1FBD38860026B911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D69F21C51FBD38870026B911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D69F21C61FBD38870026B911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69F21C81FBD38870026B911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E489F148B9181BC14B856E23 /* Pods-Quizkelas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Quizkelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Quizkelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D69F21C91FBD38870026B911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F67D3196715247CCA75C99 /* Pods-Quizkelas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Quizkelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Quizkelas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69F21CB1FBD38870026B911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizkelasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.QuizkelasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quizkelas.app/Quizkelas";
+			};
+			name = Debug;
+		};
+		D69F21CC1FBD38870026B911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizkelasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.QuizkelasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quizkelas.app/Quizkelas";
+			};
+			name = Release;
+		};
+		D69F21CE1FBD38870026B911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizkelasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.QuizkelasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quizkelas;
+			};
+			name = Debug;
+		};
+		D69F21CF1FBD38870026B911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizkelasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.QuizkelasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quizkelas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69F219A1FBD38860026B911 /* Build configuration list for PBXProject "Quizkelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69F21C51FBD38870026B911 /* Debug */,
+				D69F21C61FBD38870026B911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69F21C71FBD38870026B911 /* Build configuration list for PBXNativeTarget "Quizkelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69F21C81FBD38870026B911 /* Debug */,
+				D69F21C91FBD38870026B911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69F21CA1FBD38870026B911 /* Build configuration list for PBXNativeTarget "QuizkelasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69F21CB1FBD38870026B911 /* Debug */,
+				D69F21CC1FBD38870026B911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69F21CD1FBD38870026B911 /* Build configuration list for PBXNativeTarget "QuizkelasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69F21CE1FBD38870026B911 /* Debug */,
+				D69F21CF1FBD38870026B911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69F21971FBD38860026B911 /* Project object */;
+}
